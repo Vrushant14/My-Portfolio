@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Orbitron:wght@400..900&family=Playwrite+CZ:wght@100..400&display=swap");
+
+.mylinks {
+  list-style-type: none;
+  margin: 1em;
+  color: white;
+  font-size: 1.5em;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.216);
+  border-radius: 1000px;
+  transition: 0.5s;
+}
+.mylinks:hover {
+  background-color: white;
+  color: black;
+  transition: 1s;
+}
+.mylinks:focus {
+  background-color: rgba(255, 255, 255, 0.216);
+}
+.vrushant {
+  font-family: "Kalam", cursive;
+  font-weight: 1000;
+  font-style: normal;
+  color: grey;
+  transition: 1s;
+  margin-bottom: 1px;
+}
+.vrushant:hover {
+  color: white;
+  transition: 1s;
+}
+hr{
+    margin:0;
+    margin-bottom: 2em;
+}
+.subtext {
+  font-family: "Kalam", cursive;
+  color: white;
+  font-size: 1.5em;
+  padding: 10px;
+  border-radius: 1000px;
+  transition: 0.5s;
+}

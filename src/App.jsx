@@ -2,17 +2,14 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Intro from './intro.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1>Hi, I am Vrushant Mukherjee</h1>
-      <h2>A Passionate Computer Science Student</h2>
-      <button onClick={() => {window.location = 'https://github.com/Vrushant14'}} className="btnmylinks">Github</button>
-      <button onClick={() => {window.location = 'https://linkedin.com/in/vrushantmukherjee14'}} className="btnmylinks">LinkedIn</button>
-      <button onClick={() => {window.location = 'https://leetcode.com/u/Vrushant14/'}} className="btnmylinks">LeetCode</button>
+      <Intro />
     </>
   )
 }
